@@ -3,7 +3,9 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+import Register from "./components/auth/register/register.jsx";
+
 ReactDom.render(
-  <h1>Hello, world!</h1>,
+  <Register/>,
   document.getElementById('container')
 );
